@@ -5,7 +5,7 @@ require 'active_model/serializer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'active_model_serializers'
-  spec.version       = ActiveModel::Serializer::VERSION
+  spec.version       = '0.10.6'
   spec.platform      = Gem::Platform::RUBY
   spec.authors       = ['Steve Klabnik']
   spec.email         = ['steve@steveklabnik.com']
@@ -42,7 +42,7 @@ Gem::Specification.new do |spec|
   # 'minitest'
   # 'thread_safe'
 
-  spec.add_runtime_dependency 'jsonapi-renderer', ['>= 0.1.1.beta1', '< 0.2']
+  spec.add_runtime_dependency 'jsonapi-renderer', ['~> 0.2']
   spec.add_runtime_dependency 'case_transform', '>= 0.2'
 
   spec.add_development_dependency 'activerecord', rails_versions
